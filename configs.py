@@ -34,17 +34,17 @@ from os import path, getenv
 import os, time 
 
 class Config:
-    API_ID = int(getenv("API_ID", "0112234"))
-    API_HASH = getenv("API_HASH", "abcdefg")
-    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:rkndeveloperDEhdhyjjvjjftSEW")
+    API_ID = int(getenv("API_ID", "23685822"))
+    API_HASH = getenv("API_HASH", "ff0572e13ff2f63a50f6dc707e0c4c9f")
+    BOT_TOKEN = getenv("BOT_TOKEN", "")
  
-    FORCE_SUB = int(getenv("FORCE_SUB", "-1001819787652"))
-    ADMIN = list(map(int, getenv("ADMIN", "6151758586").split()))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002120760645"))
+    FORCE_SUB = int(getenv("FORCE_SUB", "-1001648037641)
+    ADMIN = list(map(int, getenv("ADMIN", "6725874739").split()))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1008391427698")
     
     # database configs
-    DB_URL = os.environ.get("DB_URL", "")
-    DB_NAME = os.environ.get("DB_NAME", "")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://priyanshukumawat90_db_user:HtZWFwZpyQgNmdtv@cluster0.gmchzjb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME", "Cluster0")
     
     #web response 
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
