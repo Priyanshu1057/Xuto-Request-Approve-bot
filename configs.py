@@ -40,7 +40,7 @@ class Config:
  
     FORCE_SUB = int(getenv("FORCE_SUB", "-1001648037641"))
     ADMIN = list(map(int, getenv("ADMIN", "6725874739").split()))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1008391427698")
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1008391427698"))
     
     # database configs
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://priyanshukumawat90_db_user:HtZWFwZpyQgNmdtv@cluster0.gmchzjb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
